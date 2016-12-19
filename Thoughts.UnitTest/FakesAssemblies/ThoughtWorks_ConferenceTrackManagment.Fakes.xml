@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ThoughtWorks_ConferenceTrackManagment.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager">
+            <summary>Shim type of ThoughtWorks_ConferenceTrackManagment.Models.TaskManager</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.#ctor(ThoughtWorks_ConferenceTrackManagment.Models.TaskManager)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.ConstructorIShedulerDateTimeDateTimeInt32Int32">
+            <summary>Sets the shim of TaskManager.TaskManager(ISheduler sheduler, DateTime morningDateTime, DateTime eveningDateTime, Int32 morningMaxDuration, Int32 eveningMaxDuration)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.ConstructorIShedulerMorningSessionEveningSession">
+            <summary>Sets the shim of TaskManager.TaskManager(ISheduler sheduler, MorningSession MorningSession, EveningSession eveningSession)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.EveningDurationGet">
+            <summary>Sets the shim of TaskManager.get_EveningDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.EveningDurationSetInt32">
+            <summary>Sets the shim of TaskManager.set_EveningDuration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.EveningStartTimeGet">
+            <summary>Sets the shim of TaskManager.get_EveningStartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.EveningStartTimeSetDateTime">
+            <summary>Sets the shim of TaskManager.set_EveningStartTime(DateTime value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.MorningDurationGet">
+            <summary>Sets the shim of TaskManager.get_MorningDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.MorningDurationSetInt32">
+            <summary>Sets the shim of TaskManager.set_MorningDuration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.MorningStartTimeGet">
+            <summary>Sets the shim of TaskManager.get_MorningStartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.MorningStartTimeSetDateTime">
+            <summary>Sets the shim of TaskManager.set_MorningStartTime(DateTime value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.TaskSheduler1ListOfSession">
+            <summary>Sets the shim of TaskManager.TaskSheduler1(List`1&lt;Session&gt; programmes)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.TaskShedulerListOfSession">
+            <summary>Sets the shim of TaskManager.TaskSheduler(List`1&lt;Session&gt; programmsToBeSheduled)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.EveningDurationGet">
+            <summary>Sets the shim of TaskManager.get_EveningDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.EveningDurationSetInt32">
+            <summary>Sets the shim of TaskManager.set_EveningDuration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.EveningStartTimeGet">
+            <summary>Sets the shim of TaskManager.get_EveningStartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.EveningStartTimeSetDateTime">
+            <summary>Sets the shim of TaskManager.set_EveningStartTime(DateTime value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.MorningDurationGet">
+            <summary>Sets the shim of TaskManager.get_MorningDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.MorningDurationSetInt32">
+            <summary>Sets the shim of TaskManager.set_MorningDuration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.MorningStartTimeGet">
+            <summary>Sets the shim of TaskManager.get_MorningStartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.MorningStartTimeSetDateTime">
+            <summary>Sets the shim of TaskManager.set_MorningStartTime(DateTime value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.TaskSheduler1ListOfSession">
+            <summary>Sets the shim of TaskManager.TaskSheduler1(List`1&lt;Session&gt; programmes)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.ShimTaskManager.AllInstances.TaskShedulerListOfSession">
+            <summary>Sets the shim of TaskManager.TaskSheduler(List`1&lt;Session&gt; programmsToBeSheduled)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.StubTaskManager">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.Models.TaskManager</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.StubTaskManager.#ctor(ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.ISheduler,ThoughtWorks_ConferenceTrackManagment.Models.Sessions.MorningSession,ThoughtWorks_ConferenceTrackManagment.Models.Sessions.EveningSession)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.StubTaskManager.#ctor(ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.ISheduler,System.DateTime,System.DateTime,System.Int32,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.StubTaskManager.InitializeStub">
+            <summary>Initializes a new instance of type StubTaskManager</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.StubTaskManager.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.StubTaskManager.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Fakes.StubTaskManager.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession">
+            <summary>Shim type of ThoughtWorks_ConferenceTrackManagment.Models.Sessions.EveningSession</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.#ctor(ThoughtWorks_ConferenceTrackManagment.Models.Sessions.EveningSession)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.Bind(ThoughtWorks_ConferenceTrackManagment.Models.Sessions.ISession)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.ConstructorDateTimeInt32ISheduler">
+            <summary>Sets the shim of EveningSession.EveningSession(DateTime startTime, Int32 maxDurartion, ISheduler sheduler)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.CreateSheduleListOfSession">
+            <summary>Sets the shim of EveningSession.CreateShedule(List`1&lt;Session&gt; unOrderedSession)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.MaxDurationGet">
+            <summary>Sets the shim of EveningSession.get_MaxDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.MaxDurationSetInt32">
+            <summary>Sets the shim of EveningSession.set_MaxDuration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.StartTimeGet">
+            <summary>Sets the shim of EveningSession.get_StartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.StartTimeSetDateTime">
+            <summary>Sets the shim of EveningSession.set_StartTime(DateTime value)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.AllInstances.CreateSheduleListOfSession">
+            <summary>Sets the shim of EveningSession.CreateShedule(List`1&lt;Session&gt; unOrderedSession)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.AllInstances.MaxDurationGet">
+            <summary>Sets the shim of EveningSession.get_MaxDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.AllInstances.MaxDurationSetInt32">
+            <summary>Sets the shim of EveningSession.set_MaxDuration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.AllInstances.StartTimeGet">
+            <summary>Sets the shim of EveningSession.get_StartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimEveningSession.AllInstances.StartTimeSetDateTime">
+            <summary>Sets the shim of EveningSession.set_StartTime(DateTime value)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession">
+            <summary>Shim type of ThoughtWorks_ConferenceTrackManagment.Models.Sessions.MorningSession</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.#ctor(ThoughtWorks_ConferenceTrackManagment.Models.Sessions.MorningSession)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.Bind(ThoughtWorks_ConferenceTrackManagment.Models.Sessions.ISession)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.ConstructorDateTimeInt32ISheduler">
+            <summary>Sets the shim of MorningSession.MorningSession(DateTime startTime, Int32 maxDurartion, ISheduler sheduler)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.CreateSheduleListOfSession">
+            <summary>Sets the shim of MorningSession.CreateShedule(List`1&lt;Session&gt; unOrderedSession)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.MaxDurationGet">
+            <summary>Sets the shim of MorningSession.get_MaxDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.MaxDurationSetInt32">
+            <summary>Sets the shim of MorningSession.set_MaxDuration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.StartTimeGet">
+            <summary>Sets the shim of MorningSession.get_StartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.StartTimeSetDateTime">
+            <summary>Sets the shim of MorningSession.set_StartTime(DateTime value)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.AllInstances.CreateSheduleListOfSession">
+            <summary>Sets the shim of MorningSession.CreateShedule(List`1&lt;Session&gt; unOrderedSession)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.AllInstances.MaxDurationGet">
+            <summary>Sets the shim of MorningSession.get_MaxDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.AllInstances.MaxDurationSetInt32">
+            <summary>Sets the shim of MorningSession.set_MaxDuration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.AllInstances.StartTimeGet">
+            <summary>Sets the shim of MorningSession.get_StartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimMorningSession.AllInstances.StartTimeSetDateTime">
+            <summary>Sets the shim of MorningSession.set_StartTime(DateTime value)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession">
+            <summary>Shim type of ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Session</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.#ctor(ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Session)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.Constructor">
+            <summary>Sets the shim of Session.Session()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.DurationGet">
+            <summary>Sets the shim of Session.get_Duration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.DurationSetInt32">
+            <summary>Sets the shim of Session.set_Duration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.StartTimeGet">
+            <summary>Sets the shim of Session.get_StartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.StartTimeSetDateTime">
+            <summary>Sets the shim of Session.set_StartTime(DateTime value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.TitleGet">
+            <summary>Sets the shim of Session.get_Title()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.TitleSetString">
+            <summary>Sets the shim of Session.set_Title(String value)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.AllInstances.DurationGet">
+            <summary>Sets the shim of Session.get_Duration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.AllInstances.DurationSetInt32">
+            <summary>Sets the shim of Session.set_Duration(Int32 value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.AllInstances.StartTimeGet">
+            <summary>Sets the shim of Session.get_StartTime()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.AllInstances.StartTimeSetDateTime">
+            <summary>Sets the shim of Session.set_StartTime(DateTime value)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.AllInstances.TitleGet">
+            <summary>Sets the shim of Session.get_Title()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.ShimSession.AllInstances.TitleSetString">
+            <summary>Sets the shim of Session.set_Title(String value)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubEveningSession">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.Models.Sessions.EveningSession</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubEveningSession.#ctor(System.DateTime,System.Int32,ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.ISheduler)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubEveningSession.InitializeStub">
+            <summary>Initializes a new instance of type StubEveningSession</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubEveningSession.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubEveningSession.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubEveningSession.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.Models.Sessions.ISession</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.#ctor">
+            <summary>Initializes a new instance of type StubISession</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.AttachBackingFieldToMaxDuration">
+            <summary>Attaches delegates to emulate StubISession.MaxDuration as a property with a backing field.</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.AttachBackingFieldToStartTime">
+            <summary>Attaches delegates to emulate StubISession.StartTime as a property with a backing field.</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.CreateSheduleListOfSession">
+            <summary>Sets the stub of ISession.CreateShedule(List`1&lt;Session&gt; unOrderedSession)</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.MaxDurationGet">
+            <summary>Sets the stub of ISession.get_MaxDuration()</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.MaxDurationSetInt32">
+            <summary>Sets the stub of ISession.set_MaxDuration(Int32 value)</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.StartTimeGet">
+            <summary>Sets the stub of ISession.get_StartTime()</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.StartTimeSetDateTime">
+            <summary>Sets the stub of ISession.set_StartTime(DateTime value)</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.twctm::ThoughtWorks_ConferenceTrackManagment#Models#Sessions#ISession#CreateShedule(System.Collections.Generic.List{ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Session})">
+            <summary>Sets the stub of ISession.CreateShedule(List`1&lt;Session&gt; unOrderedSession)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.twctm::ThoughtWorks_ConferenceTrackManagment#Models#Sessions#ISession#MaxDuration">
+            <summary>Sets the stub of ISession.get_MaxDuration()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubISession.twctm::ThoughtWorks_ConferenceTrackManagment#Models#Sessions#ISession#StartTime">
+            <summary>Sets the stub of ISession.get_StartTime()</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubMorningSession">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.Models.Sessions.MorningSession</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubMorningSession.#ctor(System.DateTime,System.Int32,ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.ISheduler)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubMorningSession.InitializeStub">
+            <summary>Initializes a new instance of type StubMorningSession</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubMorningSession.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubMorningSession.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubMorningSession.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubSession">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Session</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubSession.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubSession.InitializeStub">
+            <summary>Initializes a new instance of type StubSession</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubSession.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubSession.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Fakes.StubSession.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler">
+            <summary>Shim type of ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Sheduler</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.#ctor(ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Sheduler)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.Bind(ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.ISheduler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.Constructor">
+            <summary>Sets the shim of Sheduler.Sheduler()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.SheduleSessionListOfSessionDateTimeInt32">
+            <summary>Sets the shim of Sheduler.SheduleSession(List`1&lt;Session&gt; session, DateTime startTime, Int32 maxDuration)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.ShimSheduler.AllInstances.SheduleSessionListOfSessionDateTimeInt32">
+            <summary>Sets the shim of Sheduler.SheduleSession(List`1&lt;Session&gt; session, DateTime startTime, Int32 maxDuration)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubISheduler">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.ISheduler</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubISheduler.#ctor">
+            <summary>Initializes a new instance of type StubISheduler</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubISheduler.SheduleSessionListOfSessionDateTimeInt32">
+            <summary>Sets the stub of ISheduler.SheduleSession(List`1&lt;Session&gt; session, DateTime startTime, Int32 maxDuration)</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubISheduler.twctm::ThoughtWorks_ConferenceTrackManagment#Models#Sheduler#ISheduler#SheduleSession(System.Collections.Generic.List{ThoughtWorks_ConferenceTrackManagment.Models.Sessions.Session},System.DateTime,System.Int32)">
+            <summary>Sets the stub of ISheduler.SheduleSession(List`1&lt;Session&gt; session, DateTime startTime, Int32 maxDuration)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubSheduler">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Sheduler</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubSheduler.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubSheduler.InitializeStub">
+            <summary>Initializes a new instance of type StubSheduler</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubSheduler.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubSheduler.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Models.Sheduler.Fakes.StubSheduler.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFile">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.IFile</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFile.#ctor">
+            <summary>Initializes a new instance of type StubIFile</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFile.ExistsString">
+            <summary>Sets the stub of IFile.Exists(String fileName)</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFile.ReadLinesString">
+            <summary>Sets the stub of IFile.ReadLines(String fileName)</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFile.twctm::ThoughtWorks_ConferenceTrackManagment#UtilitiesInterface#IFile#Exists(System.String)">
+            <summary>Sets the stub of IFile.Exists(String fileName)</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFile.twctm::ThoughtWorks_ConferenceTrackManagment#UtilitiesInterface#IFile#ReadLines(System.String)">
+            <summary>Sets the stub of IFile.ReadLines(String fileName)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFileReader">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.IFileReader</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFileReader.#ctor">
+            <summary>Initializes a new instance of type StubIFileReader</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFileReader.ReadFileString">
+            <summary>Sets the stub of IFileReader.ReadFile(String fileName)</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIFileReader.twctm::ThoughtWorks_ConferenceTrackManagment#UtilitiesInterface#IFileReader#ReadFile(System.String)">
+            <summary>Sets the stub of IFileReader.ReadFile(String fileName)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIParser">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.IParser</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIParser.#ctor">
+            <summary>Initializes a new instance of type StubIParser</summary>
+        </member>
+        <member name="F:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIParser.ParseToSessionListOfString">
+            <summary>Sets the stub of IParser.ParseToSession(List`1&lt;String&gt; collection)</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.Fakes.StubIParser.twctm::ThoughtWorks_ConferenceTrackManagment#UtilitiesInterface#IParser#ParseToSession(System.Collections.Generic.List{System.String})">
+            <summary>Sets the stub of IParser.ParseToSession(List`1&lt;String&gt; collection)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader">
+            <summary>Shim type of ThoughtWorks_ConferenceTrackManagment.Utilties.FileReader</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.#ctor(ThoughtWorks_ConferenceTrackManagment.Utilties.FileReader)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.Bind(ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.IFileReader)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.ConstructorIFile">
+            <summary>Sets the shim of FileReader.FileReader(IFile file)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.ReadFileString">
+            <summary>Sets the shim of FileReader.ReadFile(String fileName)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.ShimFileReader.AllInstances.ReadFileString">
+            <summary>Sets the shim of FileReader.ReadFile(String fileName)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.StubFileReader">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.Utilties.FileReader</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.StubFileReader.#ctor(ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.IFile)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.StubFileReader.InitializeStub">
+            <summary>Initializes a new instance of type StubFileReader</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.StubFileReader.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.StubFileReader.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.Utilties.Fakes.StubFileReader.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile">
+            <summary>Shim type of ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.MyFile</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.#ctor(ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.MyFile)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.Bind(ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.IFile)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.Constructor">
+            <summary>Sets the shim of MyFile.MyFile()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.ExistsString">
+            <summary>Sets the shim of MyFile.Exists(String fileName)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.ReadLinesString">
+            <summary>Sets the shim of MyFile.ReadLines(String fileName)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.AllInstances.ExistsString">
+            <summary>Sets the shim of MyFile.Exists(String fileName)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimMyFile.AllInstances.ReadLinesString">
+            <summary>Sets the shim of MyFile.ReadLines(String fileName)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser">
+            <summary>Shim type of ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Parser</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.#ctor(ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Parser)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.Bind(ThoughtWorks_ConferenceTrackManagment.UtilitiesInterface.IParser)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.Constructor">
+            <summary>Sets the shim of Parser.Parser()</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.ParseTimeString">
+            <summary>Sets the shim of Parser.ParseTime(String theWord)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.ParseToSessionListOfString">
+            <summary>Sets the shim of Parser.ParseToSession(List`1&lt;String&gt; collection)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser._ParseToSessionb__1String">
+            <summary>Sets the shim of Parser.&lt;ParseToSession&gt;b__1(String line)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.AllInstances.ParseTimeString">
+            <summary>Sets the shim of Parser.ParseTime(String theWord)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.AllInstances.ParseToSessionListOfString">
+            <summary>Sets the shim of Parser.ParseToSession(List`1&lt;String&gt; collection)</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.ShimParser.AllInstances._ParseToSessionb__1String">
+            <summary>Sets the shim of Parser.&lt;ParseToSession&gt;b__1(String line)</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubMyFile">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.MyFile</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubMyFile.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubMyFile.InitializeStub">
+            <summary>Initializes a new instance of type StubMyFile</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubMyFile.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubMyFile.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubMyFile.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubParser">
+            <summary>Stub type of ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Parser</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubParser.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubParser.InitializeStub">
+            <summary>Initializes a new instance of type StubParser</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubParser.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubParser.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:ThoughtWorks_ConferenceTrackManagment.UtiltiesImplementation.Fakes.StubParser.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
